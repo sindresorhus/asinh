@@ -1,6 +1,6 @@
 {
   "name": "asinh",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "ES6 Math.asinh() ponyfill",
   "license": "MIT",
   "repository": "sindresorhus/asinh",
