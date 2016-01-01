@@ -1,22 +1,21 @@
-'use strict';
-var test = require('ava');
-var numberIsNan = require('number-is-nan');
-var positiveZero = require('positive-zero');
-var negativeZero = require('negative-zero');
-Math.asinh = undefined;
-var asinh = require('./');
+import test from 'ava';
+import numberIsNan from 'number-is-nan';
+import positiveZero from 'positive-zero';
+import negativeZero from 'negative-zero';
 
-test(function (t) {
-	t.assert(numberIsNan(asinh(NaN)));
-	t.assert(positiveZero(asinh(+0)));
-	t.assert(negativeZero(asinh(-0)));
-	t.assert(asinh(Infinity) === Infinity);
-	t.assert(asinh(-Infinity) === -Infinity);
-	t.assert(asinh(0) === 0);
-	t.assert(asinh(1234) === 7.811163549201245);
-	t.assert(asinh(9.99) === 2.997227420191335);
-	t.assert(asinh(1e150) === 346.0809111296668);
-	t.assert(asinh(-1e7) === -16.811242831518268);
-	t.assert(asinh(1e7) === 16.811242831518268);
-	t.end();
+Math.asinh = undefined;
+const m = require('./');
+
+test(t => {
+	t.true(numberIsNan(m(NaN)));
+	t.true(positiveZero(m(+0)));
+	t.true(negativeZero(m(-0)));
+	t.is(m(Infinity), Infinity);
+	t.is(m(-Infinity), -Infinity);
+	t.is(m(0), 0);
+	t.is(m(1234), 7.811163549201245);
+	t.is(m(9.99), 2.997227420191335);
+	t.is(m(1e150), 346.0809111296668);
+	t.is(m(-1e7), -16.811242831518268);
+	t.is(m(1e7), 16.811242831518268);
 });
