@@ -1,7 +1,7 @@
 {
   "name": "asinh",
   "version": "1.0.0",
-  "description": "ES6 Math.asinh() ponyfill",
+  "description": "ES2015 Math.asinh() ponyfill",
   "license": "MIT",
   "repository": "sindresorhus/asinh",
   "author": {
@@ -19,9 +19,7 @@
     "index.js"
   ],
   "keywords": [
-    "es6",
     "es2015",
-    "ecmascript",
     "ponyfill",
     "polyfill",
     "shim",
