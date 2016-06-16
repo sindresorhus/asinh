@@ -6,5 +6,5 @@ module.exports = Math.asinh || function asinh(x) {
 		return x;
 	}
 
-	return x < 0 ? -asinh(-x) : Math.log(x + Math.sqrt(x * x + 1));
+	return x < 0 ? -asinh(-x) : Math.log(x + Math.sqrt((x * x) + 1));
 };
