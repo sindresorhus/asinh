@@ -1,8 +1,6 @@
 # asinh [![Build Status](https://travis-ci.org/sindresorhus/asinh.svg?branch=master)](https://travis-ci.org/sindresorhus/asinh)
 
-> ES2015 [`Math.asinh()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/asinh) ponyfill
-
-> Ponyfill: A polyfill that doesn't overwrite the native method
+> ES2015 [`Math.asinh()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/asinh) [ponyfill](https://ponyfill.com)
 
 
 ## Install
