@@ -1,4 +1,4 @@
-# asinh [![Build Status](https://travis-ci.org/sindresorhus/asinh.svg?branch=master)](https://travis-ci.org/sindresorhus/asinh)
+# asinh
 
 > ES2015 [`Math.asinh()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/asinh) [ponyfill](https://ponyfill.com)
 
