@@ -1,3 +1,7 @@
+Deprecated as this is now natively available in all modern browsers and Node.js versions.
+
+---
+
 # asinh
 
 > ES2015 [`Math.asinh()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/asinh) [ponyfill](https://ponyfill.com)
